@@ -1,0 +1,10 @@
+.table {
+  table-layout: auto;
+  word-wrap: break-word;
+}
+
+th, td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
